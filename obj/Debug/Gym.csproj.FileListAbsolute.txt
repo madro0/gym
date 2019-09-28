@@ -1,0 +1,158 @@
+C:\Users\Madro\Desktop\proyecto final\Gym\bin\Debug\Gym.exe.config
+C:\Users\Madro\Desktop\proyecto final\Gym\bin\Debug\Gym.exe
+C:\Users\Madro\Desktop\proyecto final\Gym\bin\Debug\Gym.pdb
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.csprojAssemblyReference.cache
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.Index.resources
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.Properties.Resources.resources
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.csproj.GenerateResource.cache
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.csproj.CoreCompileInputs.cache
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.exe
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.pdb
+C:\Users\Madro\Desktop\proyecto final\Gym\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.csproj.CopyComplete
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.Usuarios.resources
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.Interfaz.Usuarios.DatosUsuario.resources
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.Interfaz.Asistencia.ListaUsuarios.resources
+C:\Users\Madro\Desktop\proyecto final\Gym\obj\Debug\Gym.Interfaz.Asistencia.Identificacion.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\Gym.exe.config
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\Gym.exe
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\Gym.pdb
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.csprojAssemblyReference.cache
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Asistencia.Identificacion.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Asistencia.ListaUsuarios.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Index.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Usuarios.DatosUsuario.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Properties.Resources.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.csproj.GenerateResource.cache
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.csproj.CoreCompileInputs.cache
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.csproj.CopyComplete
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.exe
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.pdb
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\EntityFramework.dll
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\EntityFramework.xml
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\Gym.mdf
+C:\Users\Madro\Desktop\prueba Crud\Gym\bin\Debug\Gym_log.ldf
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Usuarios.Usuarios.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.NuevaSuscripcion.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.Agregar.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.Configuracion.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.ListaSuscripciones.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.AgregarSuscripcion.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.ListaFamiliares.resources
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.CompraSuscripcion.resources
+D:\MADRO\Gym\bin\Debug\Gym.mdf
+D:\MADRO\Gym\bin\Debug\Gym_log.ldf
+D:\MADRO\Gym\bin\Debug\Gym.exe.config
+D:\MADRO\Gym\bin\Debug\Gym.exe
+D:\MADRO\Gym\bin\Debug\Gym.pdb
+D:\MADRO\Gym\bin\Debug\EntityFramework.xml
+D:\MADRO\Gym\bin\Debug\EntityFramework.SqlServer.xml
+D:\MADRO\Gym\obj\Debug\Gym.csprojAssemblyReference.cache
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Asistencia.Identificacion.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Asistencia.ListaUsuarios.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Configuracion.AgregarSuscripcion.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Configuracion.Configuracion.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Configuracion.ListaSuscripciones.resources
+D:\MADRO\Gym\obj\Debug\Gym.Index.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Suscripciones.Agregar.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Suscripciones.CompraSuscripcion.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Suscripciones.ListaFamiliares.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Suscripciones.NuevaSuscripcion.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Usuarios.DatosUsuario.resources
+D:\MADRO\Gym\obj\Debug\Gym.Interfaz.Usuarios.Usuarios.resources
+D:\MADRO\Gym\obj\Debug\Gym.Properties.Resources.resources
+D:\MADRO\Gym\obj\Debug\Gym.csproj.GenerateResource.cache
+D:\MADRO\Gym\obj\Debug\Gym.csproj.CoreCompileInputs.cache
+D:\MADRO\Gym\obj\Debug\Gym.csproj.CopyComplete
+D:\MADRO\Gym\obj\Debug\Gym.exe
+D:\MADRO\Gym\obj\Debug\Gym.pdb
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\Gym.mdf
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\Gym_log.ldf
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\Gym.exe.config
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\Gym.exe
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\Gym.pdb
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\EntityFramework.dll
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\EntityFramework.xml
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.csprojAssemblyReference.cache
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Asistencia.Identificacion.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Asistencia.ListaUsuarios.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Configuracion.AgregarSuscripcion.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Configuracion.Configuracion.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Configuracion.ListaSuscripciones.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Estadisticas.Grafica.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Index.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Suscripciones.Agregar.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Suscripciones.CompraSuscripcion.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Suscripciones.ListaFamiliares.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Suscripciones.NuevaSuscripcion.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Usuarios.DatosUsuario.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Interfaz.Usuarios.Usuarios.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.Properties.Resources.resources
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.csproj.GenerateResource.cache
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.csproj.CoreCompileInputs.cache
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.csproj.CopyComplete
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.exe
+C:\Users\Madro\Desktop\Nueva carpeta\Gym\obj\Debug\Gym.pdb
+C:\Users\Madro\Desktop\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Estadisticas.Grafica.resources
+E:\prueba Crud\Gym\bin\Debug\Gym.mdf
+E:\prueba Crud\Gym\bin\Debug\Gym_log.ldf
+E:\prueba Crud\Gym\bin\Debug\Gym.exe.config
+E:\prueba Crud\Gym\bin\Debug\Gym.exe
+E:\prueba Crud\Gym\bin\Debug\Gym.pdb
+E:\prueba Crud\Gym\bin\Debug\EntityFramework.dll
+E:\prueba Crud\Gym\bin\Debug\EntityFramework.SqlServer.dll
+E:\prueba Crud\Gym\bin\Debug\EntityFramework.xml
+E:\prueba Crud\Gym\bin\Debug\EntityFramework.SqlServer.xml
+E:\prueba Crud\Gym\obj\Debug\Gym.csprojAssemblyReference.cache
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Asistencia.Identificacion.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Asistencia.ListaUsuarios.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.AgregarSuscripcion.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.Configuracion.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.ListaSuscripciones.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Estadisticas.Grafica.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Index.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.Agregar.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.CompraSuscripcion.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.ListaFamiliares.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.NuevaSuscripcion.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Usuarios.DatosUsuario.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Usuarios.Usuarios.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.Properties.Resources.resources
+E:\prueba Crud\Gym\obj\Debug\Gym.csproj.GenerateResource.cache
+E:\prueba Crud\Gym\obj\Debug\Gym.csproj.CopyComplete
+E:\prueba Crud\Gym\obj\Debug\Gym.exe
+E:\prueba Crud\Gym\obj\Debug\Gym.pdb
+D:\Daniel\prueba Crud\Gym\bin\Debug\Gym.mdf
+D:\Daniel\prueba Crud\Gym\bin\Debug\Gym_log.ldf
+D:\Daniel\prueba Crud\Gym\bin\Debug\Gym.exe.config
+D:\Daniel\prueba Crud\Gym\bin\Debug\Gym.exe
+D:\Daniel\prueba Crud\Gym\bin\Debug\Gym.pdb
+D:\Daniel\prueba Crud\Gym\bin\Debug\EntityFramework.dll
+D:\Daniel\prueba Crud\Gym\bin\Debug\EntityFramework.SqlServer.dll
+D:\Daniel\prueba Crud\Gym\bin\Debug\EntityFramework.xml
+D:\Daniel\prueba Crud\Gym\bin\Debug\EntityFramework.SqlServer.xml
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.csprojAssemblyReference.cache
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Asistencia.Identificacion.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Asistencia.ListaUsuarios.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.AgregarSuscripcion.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.Configuracion.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Configuracion.ListaSuscripciones.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Estadisticas.Grafica.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Index.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.Agregar.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.CompraSuscripcion.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.ListaFamiliares.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Suscripciones.NuevaSuscripcion.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Usuarios.DatosUsuario.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Interfaz.Usuarios.Usuarios.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.Properties.Resources.resources
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.csproj.GenerateResource.cache
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.csproj.CopyComplete
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.exe
+D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.pdb

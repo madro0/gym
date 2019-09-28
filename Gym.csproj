@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BEA39233-1093-4A29-9320-CCE296D6C0AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gym</RootNamespace>
+    <AssemblyName>Gym</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\proyecto G\Design Dashboard Modern\BUNIFU UI\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaz\Asistencia\Identificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Asistencia\Identificacion.Designer.cs">
+      <DependentUpon>Identificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Asistencia\ListaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Asistencia\ListaUsuarios.Designer.cs">
+      <DependentUpon>ListaUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Configuracion\AgregarSuscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Configuracion\AgregarSuscripcion.Designer.cs">
+      <DependentUpon>AgregarSuscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Configuracion\Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Configuracion\Configuracion.Designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Configuracion\ListaSuscripciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Configuracion\ListaSuscripciones.Designer.cs">
+      <DependentUpon>ListaSuscripciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Estadisticas\Grafica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Estadisticas\Grafica.Designer.cs">
+      <DependentUpon>Grafica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Suscripciones\Agregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Suscripciones\Agregar.Designer.cs">
+      <DependentUpon>Agregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Suscripciones\CompraSuscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Suscripciones\CompraSuscripcion.Designer.cs">
+      <DependentUpon>CompraSuscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Suscripciones\ListaFamiliares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Suscripciones\ListaFamiliares.Designer.cs">
+      <DependentUpon>ListaFamiliares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Suscripciones\NuevaSuscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Suscripciones\NuevaSuscripcion.Designer.cs">
+      <DependentUpon>NuevaSuscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Usuarios\DatosUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Usuarios\DatosUsuario.Designer.cs">
+      <DependentUpon>DatosUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Usuarios\Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz\Usuarios\Usuarios.Designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaz\Validaciones.cs" />
+    <Compile Include="Models\CompraSuscripcionModel.cs" />
+    <Compile Include="Models\DataAccess\CompraSuscripcionDao.cs" />
+    <Compile Include="Models\DataAccess\EstadisticasDao.cs" />
+    <Compile Include="Models\DataAccess\HistorialReporteAsistenciaDao.cs" />
+    <Compile Include="Models\DataAccess\IdentificarDao.cs" />
+    <Compile Include="Models\DataAccess\SuscripcionDao.cs" />
+    <Compile Include="Models\DataAccess\SuscripcionUsuarioDao.cs" />
+    <Compile Include="Models\DataAccess\UsuarioDao.cs" />
+    <Compile Include="Models\DataModel\CompraSuscripcion.cs">
+      <DependentUpon>GymDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataModel\Genero.cs">
+      <DependentUpon>GymDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataModel\GymDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GymDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataModel\GymDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GymDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataModel\GymDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GymDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataModel\HistorialReporteAsistencia.cs">
+      <DependentUpon>GymDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataModel\Suscripcion.cs">
+      <DependentUpon>GymDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataModel\SuscripcionUsuario.cs">
+      <DependentUpon>GymDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataModel\Usuario.cs">
+      <DependentUpon>GymDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HistorialReporteAsistenciaModel.cs" />
+    <Compile Include="Models\SuscripcionModel.cs" />
+    <Compile Include="Models\SuscripcionUsuarioModel.cs" />
+    <Compile Include="Models\UsuarioModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Interfaz\Asistencia\Identificacion.resx">
+      <DependentUpon>Identificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Asistencia\ListaUsuarios.resx">
+      <DependentUpon>ListaUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Configuracion\AgregarSuscripcion.resx">
+      <DependentUpon>AgregarSuscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Configuracion\Configuracion.resx">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Configuracion\ListaSuscripciones.resx">
+      <DependentUpon>ListaSuscripciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Estadisticas\Grafica.resx">
+      <DependentUpon>Grafica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Suscripciones\Agregar.resx">
+      <DependentUpon>Agregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Suscripciones\CompraSuscripcion.resx">
+      <DependentUpon>CompraSuscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Suscripciones\ListaFamiliares.resx">
+      <DependentUpon>ListaFamiliares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Suscripciones\NuevaSuscripcion.resx">
+      <DependentUpon>NuevaSuscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Usuarios\DatosUsuario.resx">
+      <DependentUpon>DatosUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz\Usuarios\Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="Models\DataModel\GymDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>GymDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\DataModel\GymDataModel.edmx.diagram">
+      <DependentUpon>GymDataModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gym.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Gym_log.ldf">
+      <DependentUpon>Gym.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Models\DataModel\GymDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>GymDataModel.Context.cs</LastGenOutput>
+      <DependentUpon>GymDataModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\DataModel\GymDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GymDataModel.edmx</DependentUpon>
+      <LastGenOutput>GymDataModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

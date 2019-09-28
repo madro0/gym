@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GymModelStoreContainer" CdmEntityContainer="GymEntities">
+    <EntitySetMapping Name="Genero">
+      <EntityTypeMapping TypeName="GymModel.Genero">
+        <MappingFragment StoreEntitySet="Genero">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="GymModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Di" ColumnName="Di" />
+          <ScalarProperty Name="Genero" ColumnName="Genero" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompraSuscripcion">
+      <EntityTypeMapping TypeName="GymModel.CompraSuscripcion">
+        <MappingFragment StoreEntitySet="CompraSuscripcion">
+          <ScalarProperty Name="NumeroRutinas" ColumnName="NumeroRutinas" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Suscripcion" ColumnName="Suscripcion" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suscripcion">
+      <EntityTypeMapping TypeName="GymModel.Suscripcion">
+        <MappingFragment StoreEntitySet="Suscripcion">
+          <ScalarProperty Name="NumeroIntegrantes" ColumnName="NumeroIntegrantes" />
+          <ScalarProperty Name="Plazo" ColumnName="Plazo" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="DuracionRutina" ColumnName="DuracionRutina" />
+          <ScalarProperty Name="NumeroRutinas" ColumnName="NumeroRutinas" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SuscripcionUsuario">
+      <EntityTypeMapping TypeName="GymModel.SuscripcionUsuario">
+        <MappingFragment StoreEntitySet="SuscripcionUsuario">
+          <ScalarProperty Name="FechaDeVencimiento" ColumnName="FechaDeVencimiento" />
+          <ScalarProperty Name="NumeroRutinas" ColumnName="NumeroRutinas" />
+          <ScalarProperty Name="Clientes" ColumnName="Clientes" />
+          <ScalarProperty Name="CompraSuscripcion" ColumnName="CompraSuscripcion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistorialReporteAsistencia">
+      <EntityTypeMapping TypeName="GymModel.HistorialReporteAsistencia">
+        <MappingFragment StoreEntitySet="HistorialReporteAsistencia">
+          <ScalarProperty Name="NumeroDeRutina" ColumnName="NumeroDeRutina" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IdSuscripcionUsuario" ColumnName="IdSuscripcionUsuario" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GymModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CompraSuscripcion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cliente" Type="int" Nullable="false" />
+    <Property Name="Suscripcion" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="NumeroRutinas" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Genero">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HistorialReporteAsistencia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdSuscripcionUsuario" Type="int" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="NumeroDeRutina" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Suscripcion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NumeroRutinas" Type="int" Nullable="false" />
+    <Property Name="DuracionRutina" Type="int" Nullable="false" />
+    <Property Name="Valor" Type="numeric" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Plazo" Type="float" Nullable="false" />
+    <Property Name="NumeroIntegrantes" Type="int" />
+  </EntityType>
+  <EntityType Name="SuscripcionUsuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompraSuscripcion" Type="int" Nullable="false" />
+    <Property Name="Clientes" Type="int" Nullable="false" />
+    <Property Name="NumeroRutinas" Type="int" Nullable="false" />
+    <Property Name="FechaDeVencimiento" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Di" Type="int" Nullable="false" />
+    <Property Name="Genero" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CompraSuscripcion_ToTable">
+    <End Role="Suscripcion" Type="Self.Suscripcion" Multiplicity="1" />
+    <End Role="CompraSuscripcion" Type="Self.CompraSuscripcion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suscripcion">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompraSuscripcion">
+        <PropertyRef Name="Suscripcion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CompraSuscripcion_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="CompraSuscripcion" Type="Self.CompraSuscripcion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CompraSuscripcion">
+        <PropertyRef Name="Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistorialReporteAsistencia_SuscripcionUsuario">
+    <End Role="SuscripcionUsuario" Type="Self.SuscripcionUsuario" Multiplicity="1" />
+    <End Role="HistorialReporteAsistencia" Type="Self.HistorialReporteAsistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SuscripcionUsuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HistorialReporteAsistencia">
+        <PropertyRef Name="IdSuscripcionUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SuscripcionUsuario_ToCompraSuscripcion">
+    <End Role="CompraSuscripcion" Type="Self.CompraSuscripcion" Multiplicity="1" />
+    <End Role="SuscripcionUsuario" Type="Self.SuscripcionUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompraSuscripcion">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SuscripcionUsuario">
+        <PropertyRef Name="CompraSuscripcion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SuscripcionUsuario_ToUsuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="SuscripcionUsuario" Type="Self.SuscripcionUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SuscripcionUsuario">
+        <PropertyRef Name="Clientes" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_ToGenero">
+    <End Role="Genero" Type="Self.Genero" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genero">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="Genero" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GymModelStoreContainer">
+    <EntitySet Name="CompraSuscripcion" EntityType="Self.CompraSuscripcion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Genero" EntityType="Self.Genero" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistorialReporteAsistencia" EntityType="Self.HistorialReporteAsistencia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Suscripcion" EntityType="Self.Suscripcion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SuscripcionUsuario" EntityType="Self.SuscripcionUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CompraSuscripcion_ToTable" Association="Self.FK_CompraSuscripcion_ToTable">
+      <End Role="Suscripcion" EntitySet="Suscripcion" />
+      <End Role="CompraSuscripcion" EntitySet="CompraSuscripcion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CompraSuscripcion_Usuario" Association="Self.FK_CompraSuscripcion_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="CompraSuscripcion" EntitySet="CompraSuscripcion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistorialReporteAsistencia_SuscripcionUsuario" Association="Self.FK_HistorialReporteAsistencia_SuscripcionUsuario">
+      <End Role="SuscripcionUsuario" EntitySet="SuscripcionUsuario" />
+      <End Role="HistorialReporteAsistencia" EntitySet="HistorialReporteAsistencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SuscripcionUsuario_ToCompraSuscripcion" Association="Self.FK_SuscripcionUsuario_ToCompraSuscripcion">
+      <End Role="CompraSuscripcion" EntitySet="CompraSuscripcion" />
+      <End Role="SuscripcionUsuario" EntitySet="SuscripcionUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SuscripcionUsuario_ToUsuario" Association="Self.FK_SuscripcionUsuario_ToUsuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="SuscripcionUsuario" EntitySet="SuscripcionUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_ToGenero" Association="Self.FK_Usuario_ToGenero">
+      <End Role="Genero" EntitySet="Genero" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
