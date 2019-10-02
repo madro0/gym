@@ -13,6 +13,8 @@ namespace Gym.Models
         public int IdSuscripcionUsuario { get; set; }
         public DateTime Fecha { get; set; }
         public int NumeroDeRutina { get; set; }
+        public String NombreMes { get; set; }
+        public int Conteo { get; set; }
         public void GuardarReporteAsistencia()
         {
             HistorialReporteAsistenciaDao dao = new HistorialReporteAsistenciaDao();
@@ -22,6 +24,11 @@ namespace Gym.Models
         {
             HistorialReporteAsistenciaDao dao = new HistorialReporteAsistenciaDao();
             return dao.ConteoHistorialReporteAsistencia();
-        } 
+        }
+        public List<HistorialReporteAsistenciaModel> ConteoAsistenciaPorMesAño()
+        {
+            HistorialReporteAsistenciaDao dao = new HistorialReporteAsistenciaDao();
+            return dao.ConteoAsistenciaPorMesAño();
+        }
     }
 }

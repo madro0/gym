@@ -47,15 +47,18 @@
             this.chartProductoMasVendido.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.chartProductoMasVendido.BackColor = System.Drawing.Color.Transparent;
             this.chartProductoMasVendido.BorderlineWidth = 0;
+            chartArea1.AxisX.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.VariableCount;
             chartArea1.AxisX.IsLabelAutoFit = false;
-            chartArea1.AxisX.LabelStyle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisX.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             chartArea1.AxisX.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             chartArea1.AxisX.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.Transparent;
             chartArea1.AxisX.MajorTickMark.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             chartArea1.AxisX.MinorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            chartArea1.AxisX.TextOrientation = System.Windows.Forms.DataVisualization.Charting.TextOrientation.Rotated90;
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             chartArea1.AxisY.IsLabelAutoFit = false;
-            chartArea1.AxisY.LabelStyle.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartArea1.AxisY.LabelStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             chartArea1.AxisY.LabelStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             chartArea1.AxisY.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -66,12 +69,14 @@
             legend1.Enabled = false;
             legend1.Name = "Legend1";
             this.chartProductoMasVendido.Legends.Add(legend1);
-            this.chartProductoMasVendido.Location = new System.Drawing.Point(70, 109);
+            this.chartProductoMasVendido.Location = new System.Drawing.Point(12, 109);
             this.chartProductoMasVendido.Name = "chartProductoMasVendido";
             this.chartProductoMasVendido.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent;
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series1.EmptyPointStyle.IsVisibleInLegend = false;
+            series1.EmptyPointStyle.LabelBackColor = System.Drawing.Color.Black;
+            series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             series1.IsValueShownAsLabel = true;
             series1.IsXValueIndexed = true;
             series1.LabelForeColor = System.Drawing.Color.White;
@@ -81,10 +86,10 @@
             series1.SmartLabelStyle.CalloutLineColor = System.Drawing.Color.White;
             series1.YValuesPerPoint = 2;
             this.chartProductoMasVendido.Series.Add(series1);
-            this.chartProductoMasVendido.Size = new System.Drawing.Size(652, 248);
+            this.chartProductoMasVendido.Size = new System.Drawing.Size(776, 256);
             this.chartProductoMasVendido.TabIndex = 0;
             this.chartProductoMasVendido.Text = "chart1";
-            title1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             title1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             title1.Name = "Title1";
             title1.Text = "Suscripciones";
@@ -94,7 +99,7 @@
             // 
             this.pickerFechaInicial.BackColor = System.Drawing.Color.Silver;
             this.pickerFechaInicial.BorderRadius = 0;
-            this.pickerFechaInicial.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pickerFechaInicial.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pickerFechaInicial.ForeColor = System.Drawing.Color.Black;
             this.pickerFechaInicial.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.pickerFechaInicial.FormatCustom = "";
@@ -112,7 +117,7 @@
             this.pickerFechaFinal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pickerFechaFinal.BackColor = System.Drawing.Color.Silver;
             this.pickerFechaFinal.BorderRadius = 0;
-            this.pickerFechaFinal.Font = new System.Drawing.Font("Century Gothic", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pickerFechaFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pickerFechaFinal.ForeColor = System.Drawing.Color.Black;
             this.pickerFechaFinal.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.pickerFechaFinal.FormatCustom = "dd-MM-yyyy";
@@ -128,10 +133,10 @@
             // labelDesde
             // 
             this.labelDesde.AutoSize = true;
-            this.labelDesde.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDesde.Location = new System.Drawing.Point(249, 50);
             this.labelDesde.Name = "labelDesde";
-            this.labelDesde.Size = new System.Drawing.Size(48, 17);
+            this.labelDesde.Size = new System.Drawing.Size(49, 16);
             this.labelDesde.TabIndex = 4;
             this.labelDesde.Text = "Desde";
             // 
@@ -139,10 +144,10 @@
             // 
             this.labelHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelHasta.AutoSize = true;
-            this.labelHasta.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelHasta.Location = new System.Drawing.Point(509, 50);
             this.labelHasta.Name = "labelHasta";
-            this.labelHasta.Size = new System.Drawing.Size(45, 17);
+            this.labelHasta.Size = new System.Drawing.Size(44, 16);
             this.labelHasta.TabIndex = 5;
             this.labelHasta.Text = "Hasta";
             // 
@@ -167,10 +172,10 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(224, 10);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(216, 17);
+            this.label4.Size = new System.Drawing.Size(202, 16);
             this.label4.TabIndex = 10;
             this.label4.Text = "Reporte por fecha en espesifico.";
             // 

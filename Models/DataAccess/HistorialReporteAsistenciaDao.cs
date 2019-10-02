@@ -1,6 +1,7 @@
 ﻿using Gym.Models.DataModel;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,14 +56,42 @@ namespace Gym.Models.DataAccess
                 
             }
 
-            
-                    return resultado;
-                
-                                                       
-                                                       
+            return resultado;                                          
+        }
+        public List <HistorialReporteAsistenciaModel> ConteoAsistenciaPorMesAño()
+        {
+            List<HistorialReporteAsistenciaModel> resultado = new List<HistorialReporteAsistenciaModel>();
+        
 
-                                                       
+            using (var contexto = new GymEntities())
+
+            {
+                for (int i = 1; i <=12; i++)
+                {
+                    var conteoAsistenciaPorMes = (from d in contexto.HistorialReporteAsistencia select d).Where(d => d.Fecha.Year == 2019 && d.Fecha.Month == i).Count();
+
+                   
+                    HistorialReporteAsistenciaModel c = new HistorialReporteAsistenciaModel();
+                    c.NombreMes = MonthName(i);
+                    c.Conteo = conteoAsistenciaPorMes;
+                    resultado.Add(c);
+                }
+
             }
+
+            return resultado;
+        }
+        public string MonthName(int month)
+        {
+            DateTimeFormatInfo dtinfo = new CultureInfo("es-ES", false).DateTimeFormat;
+            string nombre= dtinfo.GetMonthName(month);
+            string abre="";
+            for (int i = 0; i <3; i++)
+            {
+                abre += nombre.Substring(i,1);
+            }
+            return abre;
         }
     }
+}
 

@@ -55,12 +55,12 @@ namespace Gym.Interfaz.Configuracion
         private void pruebota()
         {
             HistorialReporteAsistenciaModel model = new HistorialReporteAsistenciaModel();
-            foreach (var item in model.ConteoHistorialReporteAsistencia())
+            foreach (var item in model.ConteoAsistenciaPorMesAño())
             {
                 tablaPrueba.Rows.Add(
-                    Convert.ToString( item.Id),
-                    Convert.ToString (item.NumeroDeRutina)
-                  );
+                    Convert.ToString(item.NombreMes),
+                    Convert.ToString(item.NumeroDeRutina)                    
+                  ) ;
                 
 
             }

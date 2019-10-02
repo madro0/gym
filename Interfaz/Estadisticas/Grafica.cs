@@ -30,8 +30,8 @@ namespace Gym.Interfaz.Estadisticas
             string dateString = "";
             //dateValue = DateTime.Parse(dateString);
             //
-            EstadisticaCompras("","");
-
+            //EstadisticaCompras("","");
+            EstadisticasAsistencia();
 
         }
 
@@ -94,6 +94,19 @@ namespace Gym.Interfaz.Estadisticas
                 //chartProductoMasVendido.Series[0].Points.AddXY(item.NombreSuscripcion, item.NumeroTotalDeCompras);
             }
             chartProductoMasVendido.Series[0].Points.DataBindXY(NompreSuscripcion, NumeroTotalDeCompras);
+        }
+        private void EstadisticasAsistencia()
+        {
+            HistorialReporteAsistenciaModel model = new HistorialReporteAsistenciaModel();
+
+            ArrayList NombreMes = new ArrayList();
+            ArrayList Conteo = new ArrayList();
+            foreach (var item in model.ConteoAsistenciaPorMesAño())
+            {
+                NombreMes.Add(item.NombreMes);
+                Conteo.Add(item.Conteo);
+            }
+            chartProductoMasVendido.Series[0].Points.DataBindXY(NombreMes, Conteo);
         }
 
         

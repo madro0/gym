@@ -156,3 +156,31 @@ D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.csproj.GenerateResource.cache
 D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.csproj.CopyComplete
 D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.exe
 D:\Daniel\prueba Crud\Gym\obj\Debug\Gym.pdb
+D:\Daniel\gym\bin\Debug\Gym.mdf
+D:\Daniel\gym\bin\Debug\Gym_log.ldf
+D:\Daniel\gym\bin\Debug\Gym.exe.config
+D:\Daniel\gym\bin\Debug\Gym.exe
+D:\Daniel\gym\bin\Debug\Gym.pdb
+D:\Daniel\gym\bin\Debug\EntityFramework.dll
+D:\Daniel\gym\bin\Debug\EntityFramework.SqlServer.dll
+D:\Daniel\gym\bin\Debug\EntityFramework.xml
+D:\Daniel\gym\bin\Debug\EntityFramework.SqlServer.xml
+D:\Daniel\gym\obj\Debug\Gym.csprojAssemblyReference.cache
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Asistencia.Identificacion.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Asistencia.ListaUsuarios.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Configuracion.AgregarSuscripcion.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Configuracion.Configuracion.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Configuracion.ListaSuscripciones.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Estadisticas.Grafica.resources
+D:\Daniel\gym\obj\Debug\Gym.Index.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Suscripciones.Agregar.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Suscripciones.CompraSuscripcion.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Suscripciones.ListaFamiliares.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Suscripciones.NuevaSuscripcion.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Usuarios.DatosUsuario.resources
+D:\Daniel\gym\obj\Debug\Gym.Interfaz.Usuarios.Usuarios.resources
+D:\Daniel\gym\obj\Debug\Gym.Properties.Resources.resources
+D:\Daniel\gym\obj\Debug\Gym.csproj.GenerateResource.cache
+D:\Daniel\gym\obj\Debug\Gym.csproj.CopyComplete
+D:\Daniel\gym\obj\Debug\Gym.exe
+D:\Daniel\gym\obj\Debug\Gym.pdb
